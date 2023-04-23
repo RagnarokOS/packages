@@ -1,0 +1,96 @@
+Package: base-files
+Version: 12.4+ragnarok01
+Architecture: amd64
+Essential: yes
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 344
+Pre-Depends: awk
+Breaks: debian-security-support (<< 2019.04.25), initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
+Replaces: base, dpkg (<= 1.15.0), miscutils
+Provides: base
+Multi-Arch: foreign
+Priority: required
+Section: admin
+Filename: pool/main/b/base-files/base-files_12.4+ragnarok01_amd64.deb
+Size: 70792
+SHA256: 61b2549eb53caae8525891fc4d9799be03b24ee9c91742eca781e06d8af772ca
+SHA1: 555fbd0f3206ed7dc79258d04892e6558d1ae596
+MD5sum: dd6ef8d976c383898051ed3347915c31
+Description: Debian base system miscellaneous files
+ This package contains the basic filesystem hierarchy of a Debian system, and
+ several important miscellaneous files, such as /etc/debian_version,
+ /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+ and the text of several common licenses in use on Debian systems.
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+Package: hardened-malloc
+Version: 11-1
+Architecture: amd64
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 131
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.9)
+Homepage: https://github.com/I-LeCorbeau/hardened-malloc
+Priority: optional
+Section: libs
+Filename: pool/main/h/hardened-malloc/hardened-malloc_11-1_amd64.deb
+Size: 23628
+SHA256: 855d71a7d9dec31d4fbb12f257de77c8bfbde79f30ec82c9a40fd1722238da35
+SHA1: 9871ab730412937a66b4c825348f3919faf9a191
+MD5sum: 1dbd5a68376cff03cf229e81a91e3eae
+Description: GrapheneOS' hardened_malloc
+ The hardnened memory allocator from GrapheneOS.
+
+Package: oksh
+Version: 7.3
+Architecture: amd64
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 387
+Depends: libc6 (>= 2.34), libtinfo6 (>= 6)
+Homepage: https://github.com/I-LeCorbeau/oksh
+Priority: required
+Section: shells
+Filename: pool/main/o/oksh/oksh_7.3_amd64.deb
+Size: 150584
+SHA256: fbd1d341a4592d52781c9e83a637f264a3a4a87b2da39bec99372e585399495c
+SHA1: 244965d1f63760954223c8b6d9f59eb8a62e07c3
+MD5sum: 841883a10065b986eeacda2e9e04418d
+Description: OpenBSD ksh.
+ Portable version of OpenBSD's korn shell implementation.
+ Used as the default login/interactive shell in Ragnarok.
+
+Package: ragnarok-files
+Source: ragnarok-source
+Version: 0.1
+Architecture: amd64
+Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
+Installed-Size: 43
+Homepage: https://github.com/RagnarokOS/src
+Priority: standard
+Section: base
+Filename: pool/main/r/ragnarok-source/ragnarok-files_0.1_amd64.deb
+Size: 6864
+SHA256: ae8ba35e510cb8649f6322c0cb247f6875fcb4fadc545281298623dc986c780f
+SHA1: f387bf4e3c3bc92b1c29a99b61ffcf684889583a
+MD5sum: 6e9b77f629d3dd2f6b53315e27704df0
+Description: files for Ragnarok
+ Package for files specific to Ragnarok systems.
+
+Package: sudo-ldap
+Version: 99:99
+Architecture: all
+Maintainer: I-LeCorbeau <I-LeCorbeau (at) protonmail (dot) com>
+Installed-Size: 9
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Filename: pool/main/s/sudo-ldap/sudo-ldap_99_all.deb
+Size: 2228
+SHA256: 5f4c6aeef87d89ab1b02431192e17b16b038e4f58b40dc931fd532a2a21f98c7
+SHA1: 6c3c53cf43fa175dfed46e8904e05def586f40a9
+MD5sum: 950210af5094771c6457b8742cd1c649
+Description: dummy package for sudo
+ Ragnarok uses doas. This exists to prevent live-build
+ from installing sudo-ldap. Sudo can still be installed
+ by the user later by first doing apt remove sudo-ldap
+ then apt install sudo-ldap.
+
