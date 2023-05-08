@@ -24,7 +24,7 @@ Description: Debian base system miscellaneous files
 Original-Maintainer: Santiago Vila <sanvila@debian.org>
 
 Package: bash
-Version: 5.2.15-2+ragnarok01
+Version: 5.2.15-2+ragnarok01-1
 Architecture: amd64
 Essential: yes
 Maintainer: Matthias Klose <doko@debian.org>
@@ -39,11 +39,11 @@ Multi-Arch: foreign
 Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
 Priority: required
 Section: shells
-Filename: pool/main/b/bash/bash_5.2.15-2+ragnarok01_amd64.deb
-Size: 1491140
-SHA256: 023cee4346f69835f217ae471fb28d51775ea07da042565057077c835feb6e0e
-SHA1: 6874377b04a1de1d6fbf5c1c23cdd8a31638d649
-MD5sum: 101c92180d37a42db2fff8dfefb02409
+Filename: pool/main/b/bash/bash_5.2.15-2+ragnarok01-1_amd64.deb
+Size: 1491636
+SHA256: 238565ae9b749b7e8dd4adfa86ffefdeab53b7fe8bee1b32c1b2ef9fdff6f38f
+SHA1: 2cf1953641ac3952d05ac369cdc24d54f67b7b55
+MD5sum: e0916531348c5ff9633cad0201ea2f89
 Description: GNU Bourne Again SHell
  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file.  Bash also
@@ -73,7 +73,7 @@ Description: GrapheneOS' hardened_malloc
  The hardnened memory allocator from GrapheneOS.
 
 Package: oksh
-Version: 7.3
+Version: 7.3-1
 Architecture: amd64
 Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
 Installed-Size: 387
@@ -81,11 +81,11 @@ Depends: libc6 (>= 2.34), libtinfo6 (>= 6)
 Homepage: https://github.com/I-LeCorbeau/oksh
 Priority: required
 Section: shells
-Filename: pool/main/o/oksh/oksh_7.3_amd64.deb
-Size: 150584
-SHA256: fbd1d341a4592d52781c9e83a637f264a3a4a87b2da39bec99372e585399495c
-SHA1: 244965d1f63760954223c8b6d9f59eb8a62e07c3
-MD5sum: 841883a10065b986eeacda2e9e04418d
+Filename: pool/main/o/oksh/oksh_7.3-1_amd64.deb
+Size: 150564
+SHA256: de6c3bca4c40a6674f0a9360c82852196b87d32877699acbf4b4de5c6aab458b
+SHA1: ae066839e1b8f99e7c98a52ed7fcf4a4ff167de9
+MD5sum: a78609c1d5246b48e7c85cdd19864ee9
 Description: OpenBSD ksh.
  Portable version of OpenBSD's korn shell implementation.
  Used as the default login/interactive shell in Ragnarok.
