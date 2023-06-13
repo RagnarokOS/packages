@@ -4,26 +4,26 @@ Hash: SHA256
 Origin: Ragnarok
 Label: Ragnarok
 Codename: dev
-Date: Mon, 08 May 2023 19:24:50 UTC
+Date: Tue, 13 Jun 2023 15:54:54 UTC
 Architectures: amd64
 Components: main
 Description: Ragnarok's deb package repository
 MD5Sum:
- 6a136a712ebe70b26386106d1eeb8e16 4732 main/binary-amd64/Packages
- 80acf3bbf7b16b106b0f5e12a2350f60 2166 main/binary-amd64/Packages.gz
+ 0a4b637a72257148e5fca66e21c64eb9 4732 main/binary-amd64/Packages
+ 963a67b6c2036f1b76771c0f5b00c032 2164 main/binary-amd64/Packages.gz
  f89e04379072de21d9fdc44f588edf93 116 main/binary-amd64/Release
 SHA1:
- f2db994628dd1d2f0c6812b873cb5b1e3666ae67 4732 main/binary-amd64/Packages
- 0412ddaa50239ea0996a124683ffcdb528f8f3fa 2166 main/binary-amd64/Packages.gz
+ 5a6b77f08cd5992e7a09079ed8193abb24e355da 4732 main/binary-amd64/Packages
+ a38e5516e97be37df4b5f51fbf615004b1b268c3 2164 main/binary-amd64/Packages.gz
  e8aa6260c6211d302607b3d7b1bd67a2300e271e 116 main/binary-amd64/Release
 SHA256:
- 43ddf2a2e09a87909293b94e0e89ee121748d83d9cebc8705b5d855034638b59 4732 main/binary-amd64/Packages
- f4f6745ff366d547ab9add77e3878cb2342044cbe3c75379e0b7f583501a58b9 2166 main/binary-amd64/Packages.gz
+ 83da08f6592adcb421fd5a528539cd488a081b21701cc97c8e5db14cd3fd596f 4732 main/binary-amd64/Packages
+ c0e64e87def2ca32615b560b05896ca819d3634bcb38b8c2b2b6f9a78287caad 2164 main/binary-amd64/Packages.gz
  a2660a2541e5aadecfb46c5866b1d9b47d42ee7f83950b8513ddd25d929fb571 116 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQQd07yWiPPvmI0+oCME+3X+t3o0LwUCZFlMggAKCRAE+3X+t3o0
-Lxs3AP9vjbkV9d7JUnRzqKmYpNRcTU/gIiy0J8/1pWq5KvjLZQD/VHrUtmVJzt1z
-2Rp8HzpkZ4T8nDHpa8lAX+Pjbb+kGw8=
-=2NET
+iHUEARYIAB0WIQQd07yWiPPvmI0+oCME+3X+t3o0LwUCZIiRlAAKCRAE+3X+t3o0
+L2ptAQDDdxlLVF275ms7uqWhPl8zaHkaQkuu8msy5Ae99zEuBwEAp4SategUD+m1
+0/7n0Kv20PX66f0VPZQfA9VE5505uAI=
+=hMpM
 -----END PGP SIGNATURE-----

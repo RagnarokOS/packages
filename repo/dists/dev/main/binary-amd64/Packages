@@ -92,18 +92,18 @@ Description: OpenBSD ksh.
 
 Package: ragnarok-files
 Source: ragnarok-source
-Version: 0.1-3
+Version: 0.1-4
 Architecture: amd64
 Maintainer: Ian LeCorbeau <I-LeCorbeau@protonmail.com>
-Installed-Size: 50
+Installed-Size: 48
 Homepage: https://github.com/RagnarokOS/src
 Priority: standard
 Section: base
-Filename: pool/main/r/ragnarok-source/ragnarok-files_0.1-3_amd64.deb
-Size: 7776
-SHA256: a2561b8201df0db52f2cb6b991acc2e5ed6dd71c9f25dfd671934d857342e09c
-SHA1: 0a3923abfd49720f2815dfcb98c6e7cc27be5092
-MD5sum: 7bd412bc1f256e5bbb554596b0ae701d
+Filename: pool/main/r/ragnarok-source/ragnarok-files_0.1-4_amd64.deb
+Size: 7772
+SHA256: 6b15cfa6c341e2478df12bf6087044954b14450148392a4ae44257376edfb820
+SHA1: d2f639cf3ff3a49e766bfaad25281f2de391c15a
+MD5sum: 99bbe28571396b19e32c15043e6dc9d8
 Description: files for Ragnarok
  Package for files specific to Ragnarok systems.
 
